@@ -11,3 +11,4 @@ module.exports = function(deployer) {
 
   deployer.deploy(Referral, decimals, referralBonus, secondsUntilInactive, onlyRewardActiveReferrers, levelRate, refereeBonusRateMap);
 };
+
