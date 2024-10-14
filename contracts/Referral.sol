@@ -16,7 +16,6 @@ contract Referral is Ownable {
    */
   uint8 constant MAX_REFEREE_BONUS_LEVEL = 3;
 
-
   /**
    * @dev The struct of account information
    * @param referrer The referrer addresss
